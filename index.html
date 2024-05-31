@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="hr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/10.6.0/math.min.js"></script>
+        <link rel="stylesheet" href="./style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,300;0,400;0,500;1,300;1,400&display=swap" rel="stylesheet">
+        <link rel="icon" type="image/x-icon" href="./favicon.ico">
+        <title>Linearno programiranje</title>
+    </head>
+    <body>
+        <div class="head">
+            <header>
+                <h1 class="naslov">Linearno programiranje</h1>
+                <p class="about">Created by Luka Bedić & Fran Klanac</p>
+                <p class="about">Napravljeno u svrhu projektnog zadatka.</p>
+            </header>
+        </div>
+
+        <form action="" id="racunaj">
+            <h2>Prva jednadžba</h2>
+            <input type="text" class="jednadzba" id="jednadzba1"> <br>
+            <h2>Druga jednadžba</h2>
+            <input type="text" class="jednadzba" id="jednadzba2"> <br>
+            <h2 style="margin-bottom: 0px;">Točka</h2>
+            <div class="tocka">
+                <h2>T(</h2>
+                <input type="text" class="tockaInput" id="tockaX">
+                <h2>,</h2>
+                <input type="text" class="tockaInput" id="tockaY">
+                <h2>)</h2>
+            </div>
+            <button class="potvrda">Izračunaj</button>
+        </form>
+
+        <div class="ispis">
+            <h2 id="rezultat"></h2>
+        </div>
+        <script src="./library.js"></script>
+    </body>
+</html>

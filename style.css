@@ -1,0 +1,75 @@
+*{
+    font-family: Kanit;
+}
+
+body{
+    background-color: #F0DBAF;
+    text-align: center;
+}
+
+header{
+    background-color: #F4D19D;
+    height: 15rem;
+    border-radius: 30px;
+    width: 35%;
+    text-align: center;
+}
+
+.naslov{
+    color: #14244d;
+    font-size: 54px;
+    font-weight: bolder;
+}
+
+.about{
+    margin-top: 0px;
+    color: #14244d;
+    font-size: 18px;
+}
+
+.head{
+    display: flex;
+    justify-content: center;
+}
+
+h2{
+    color: #14244d;
+    font-size: 36px;
+}
+
+.jednadzba{
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0px 0px 20px;
+    width: 20%;
+    height: 50px;
+    text-align: center;
+    font-size: 18px;
+}
+.tocka{
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+}
+.tockaInput{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+    width: 5rem;
+    height: 4rem;
+    font-size: 22px;
+    border: none;
+    box-shadow: 0px 0px 1px;
+    border-radius: 30px;
+}
+
+.potvrda{
+    border-radius: 15px;
+    width: 15%;
+    height: 3rem;
+    border: 3px solid black;
+    font-size: 18px;
+
+}
