@@ -17,7 +17,7 @@ header{
 
 .naslov{
     color: #14244d;
-    font-size: 54px;
+    font-size: 32px;
     font-weight: bolder;
 }
 
@@ -30,6 +30,9 @@ header{
 .head{
     display: flex;
     justify-content: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 h2{
@@ -71,5 +74,120 @@ h2{
     height: 3rem;
     border: 3px solid black;
     font-size: 18px;
+}
 
+@media screen and (min-width: 1000px) {
+    div.head {
+        font-size: 80px;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 999px) {
+    div.head {
+        font-size: 30px;
+        width: 90%;
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 1281px) {
+    h1 {
+        font-size: 30px;
+        text-align: center;
+        vertical-align: middle;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    h1 {
+        font-size: 12px;
+        text-align: center;
+        vertical-align: middle;
+    }
+}
+
+@media screen and (min-width: 931px) {
+    p.about {
+        font-size: 18px;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 930px) {
+    p.about {
+        font-size: 14px;
+        text-align: center;
+    }
+}
+
+
+@media screen and (min-width: 721px) {
+    form {
+        text-align: center;
+        vertical-align: middle;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    form {
+        text-align: center;
+        vertical-align: middle;
+    }
+}
+
+@media screen and (min-width: 721px) {
+    input {
+        width: 15%;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    input {
+        width: 10%;
+    }
+}
+
+@media screen and (min-width: 721px) {
+    input.jednadzba,
+    button.potvrda {
+        width: 30%;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    input.jednadzba,
+    button.potvrda {
+        width: 30%;
+    }
+}
+
+@media screen and (min-width: 721px) {
+    h2 {
+        font-size: 36px;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    h2 {
+        font-size: 20px;
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 621px) {
+    div.tockaInput {
+        width: 5rem;
+        height: 4rem;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 620px) {
+    div.tockaInput {
+        width: 0.4rem;
+        height: 0.4rem;
+        text-align: center;
+    }
 }
